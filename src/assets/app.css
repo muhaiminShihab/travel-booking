@@ -1,0 +1,26 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+/* core css */
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.border-1-custom{
+    border: 1px solid #c2c2c2;
+}
+
+.bg-gradient{
+    background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+}
+
+input[type=radio]::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120%;
+    height: 120%;
+    top: 0;
+    left: 0;
+    /* background: aqua; */
+}
